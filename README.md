@@ -1,1 +1,2 @@
-# bytemasters-e-commerce
+This is an e-commerce site for selling laptops. With two interfaces, the customer and the admin, it is an efficient system. The admin can add products, update products ,delete products , see customers' orders, update the order status, view the available products. The user can view the products, make orders, check status of their orders, communicate with the admin.
+The codes will be added soon on the same, it is in its final stages of development. The languages being used are HTML, CSS, Vanilla JS, Flask and SQLite. Any contribution will be highly appreciated.
