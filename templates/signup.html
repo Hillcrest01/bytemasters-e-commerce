@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %} register {% endblock %}
+
+{% block content %}
+<div style="text-align: center; margin-top: 50px;">
+    <h1 style="color: navy;">Welcome to Our Service</h1>
+    <p>Please login or sign up to continue.</p>
+
+    <div style="margin-top: 20px;">
+        <form method="post" style="margin-bottom: 20px; display: inline-block; padding: 20px; border: 1px solid #ccc; box-shadow: 2px 2px 10px #ccc;">
+            <h2 style="color: #002d80;">Sign Up for an account</h2>
+            <div style="margin-bottom: 10px;">
+                <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+                <input type="text" id="name" name="name" style="padding: 8px; width: 200px;">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email" style="padding: 8px; width: 200px;">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="password1" style="display: block; margin-bottom: 5px;">Password:</label>
+                <input type="password" id="password1" name="password1" style="padding: 8px; width: 200px;">
+            </div>
+            <label for="password2" style="display: block; margin-bottom: 5px;">Confirm Password:</label>
+            <input type="password" id="password2" name="password2" style="padding: 8px; width: 200px;">
+        </div>
+            <button type="submit" style="padding: 8px 15px; background-color: rgb(0, 30, 128); color: white; border: none; cursor: pointer;">Register</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div style="text-align: center; padding: 50px;">
+    <h1 style="color: rgb(0, 45, 128);">Contact Us</h1>
+    <p>If you have any questions, please feel free to reach out to us!</p>
+    <div style="max-width: 500px; margin: auto;">
+        <form style="border: 1px solid #ccc; padding: 20px; box-shadow: 2px 2px 5px #888888;">
+            <div style="margin-bottom: 10px;">
+                <label for="name" style="display: block;">Name:</label>
+                <input type="text" id="name" name="name" style="width: 100%; padding: 8px;">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="email" style="display: block;">Email:</label>
+                <input type="email" id="email" name="email" style="width: 100%; padding: 8px;">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="message" style="display: block;">Message:</label>
+                <textarea id="message" name="message" style="width: 100%; padding: 8px;" rows="4"></textarea>
+            </div>
+            <button type="submit" style="padding: 10px 20px; background-color: #0056b3; color: white; border: none; cursor: pointer;">Send Message</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

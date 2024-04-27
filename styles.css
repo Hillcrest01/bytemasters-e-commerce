@@ -1,0 +1,211 @@
+body{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #212121;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head{
+    background-color: #383333;
+    height: 70px;
+}
+.fargo{
+    color: white;
+    font-weight: bold;
+    padding: 18px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 400px;
+    text-align: center;
+}
+.list{
+    display: inline-block;
+    padding: 10px;
+}
+.list li{
+    display: inline;
+    color: white;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.list li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.list li a:hover{
+    text-decoration: underline;
+    
+}
+.search{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-right: 50px;
+}
+.signon{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 700px;
+}
+.signon:hover{
+    text-decoration: underline;
+}
+.welcome{
+    color: #ffff;
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    background-image: url(images/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.register{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    border: none;
+    color: #ffff;
+    border-radius: 10px;
+}
+.register:hover{
+    text-decoration: underline;
+}
+.laptop1{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 450px; 
+    width: 400px;
+    object-fit: contain;
+}
+.img1{
+    width: 400px;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+.desc1{
+    color: #ffff;
+    text-align: center;
+}
+.buy1{
+    height: 36px;
+    width: 120px;
+    margin-left: 150px;
+    background-color: #e6bdbd;
+    border-radius: 5px;
+    border: none;
+}
+.buy1 a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+.buy1:hover{
+    background-color: #cabcbc;
+}
+.buy1:active{
+    background-color: #c05757;
+}
+.imagebreak{
+    color: #fff;
+    background-image: url(images/imagebreak.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagebreaktext{
+    text-align: center;
+    font-size: 10vh;
+
+}
+.main{
+    display: inline-block;
+}
+.viewimage{
+    display: inline-block;
+    margin: 70px;
+}
+.maintext{
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+}
+.addressform{
+    margin-bottom: 100px;
+    padding: 30px;
+    margin: 30px;
+}
+.regdiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    float: center;
+    background-image: url(images/bgimage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.regform{
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+}
+.lastname{
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.email{
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.firstname{
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.password{
+    margin: 20px;
+    width: 300px;
+    height: 30px;   
+    border: none;
+    border-radius: 10px;
+}
+.submit{
+        margin: 20px;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(72, 72, 235);
+        margin-left: 100px;
+        color: #212121;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
